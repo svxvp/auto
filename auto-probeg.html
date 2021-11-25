@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/slick.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,300;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+   <!--Header-->
+    <div class="header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="company">
+                    <a href="index.html"><img src="img/logo.png" alt=""></a>
+                    
+                    <div class="company_content">
+                        <a class="company_name" href="tel:+7(999)999-99-99">Ford-Motor Company 
+                            <br>+7(999)999-99-99</a>
+                            <div class="company_sub">Офицальный диллер в Калининграде</div>
+                    </div>
+                </div>
+                <div class="nav">
+                   
+                    <a class="nav_link" href="spec-predl.html">спецпредложения</a>
+                    <a class="nav_link" href="auto-probeg.html">авто с пробегом</a>
+                    <a class="nav_link" href="service.html">сервис</a>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+   <!--Banner-->
+    <section class="banner">
+        <div class="container">
+            <div class="banner_content"> 
+                <h1 class="banner_content-title">
+                    Ford Company
+                </h1>
+                <div class="banner_content-text">
+                    Широкий ассортимент автомобилей с пробегом. Только свежие объявления!
+                    Не упустить свой шанс приобрести качественный автомобиль с пробегом.
+                </div>
+                
+                
+                    <a href="test-drive.html" class="banner_content-btn" id="open_pop_up">
+                        Хочу авто с пробегом!
+                    </a>
+
+            </div>
+        </div>
+
+        
+    </section>
+
+    <!--Slider-->
+
+    <div class="slider-top">
+        <div class="slider">
+            <div class="slider__item" style="background-image: url(img/slider-banner/auto-probeg/1.png);">
+
+            </div>
+            <div class="slider__item" style="background-image: url(img/slider-banner/auto-probeg/2.png);">
+
+            </div>
+            <div class="slider__item" style="background-image: url(img/slider-banner/auto-probeg/3.png);">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="pop_up" id="pop_up">
+        <div class="pop_up_container">
+            <div class="pop_up_body" id="pop_up_body">
+                <p>Оставить заявку на тест-драйв</p>
+                <form action="">
+                    <input type="text" placeholder="Имя">
+                    <input type="text" placeholder="Телефон">
+                    <div class="select">
+                        <select name="format" id="format">
+                            <option selected disabled>Желаемая модель</option>
+                            <option value="Focus">Focus</option>
+                            <option value="Kuga">Kuga</option>
+                            <option value="Eco-sport">Eco-sport</option>
+                            <option value="Mondeo">Mondeo</option>
+                         </select>
+                    </div>
+                    <button>Отправить</button>
+                </form>
+                <div class="pop_up_close" id="pop_up_close">&#10006</div>
+            </div>
+        </div>
+    </div>
+ 
+   
+    
+  <div class="probeg_block">
+    <div class="container">
+      <h2 class= "h2">автомобили с пробегом</h2>
+      <div class="filter">
+          <button class="button button_type_all" data-filter="all">Все</button>
+          <button class="button button_type_focus"  data-filter="focus">Focus</button>
+          <button class="button button_type_kuga"  data-filter="kuga">Kuga</button>
+          <button class="button button_type_mondeo"  data-filter="mondeo">Mondeo</button>
+          <button class="button button_type_eco-sport"  data-filter="eco-sport">Ecosport</button>
+      </div>
+
+      <div class="probeg_list">
+
+        <div class="car card eco-sport">
+            <div class="photo">
+                <div class="block_photos ford-mustang">
+                    <img class="car_img first" src="img/probeg/eco-sport/black/1.jpg"  alt="">
+                    <img class="car_img second" src="img/probeg/eco-sport/black/2.jpg"  alt="">
+                </div>
+
+                <div class="car_content">
+                    <div class="navigation_car">
+                       <div class="choice_color">
+                          <div class="choice_title">Кузов на 3.5L</div>
+                            
+                        </div>
+                    </div>
+                    <div class="car_title"> eco-sport
+                        <div class="car_price">3 500 000 ₽ </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="car card eco-sport">
+            <div class="photo">
+                <div class="block_photos ford-mustang">
+                    <img class="car_img first" src="img/probeg/eco-sport/blue/1.jpg"  alt="">
+                    <img class="car_img second" src="img/probeg/eco-sport/blue/2.jpg"  alt="">
+                </div>
+
+                <div class="car_content">
+                    <div class="navigation_car">
+                       <div class="choice_color">
+                          <div class="choice_title">Кузов на 3L</div>
+                            
+                        </div>
+                    </div>
+                    <div class="car_title"> eco-sport
+                        <div class="car_price">3 100 000 ₽ </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="car card eco-sport">
+            <div class="photo">
+                <div class="block_photos ford-mustang">
+                    <img class="car_img first" src="img/probeg/eco-sport/white/1.jpg"  alt="">
+                    <img class="car_img second" src="img/probeg/eco-sport/white/2.jpg"  alt="">
+                   
+                </div>
+
+                <div class="car_content">
+                    <div class="navigation_car">
+                       <div class="choice_color">
+                          <div class="choice_title">Кузов на 2.5L</div>
+                            
+                        </div>
+                    </div>
+                    <div class="car_title"> eco-sport
+                        <div class="car_price">2 900 000 ₽ </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="car card kuga">
+            <div class="photo">
+                <div class="block_photos ford-mustang">
+                    <img class="car_img first" src="img/probeg/kuga/black/1.jpg"  alt="">
+                    <img class="car_img second" src="img/probeg/kuga/black/2.jpg"  alt="">
+                   
+                </div>
+
+                <div class="car_content">
+                    <div class="navigation_car">
+                       <div class="choice_color">
+                          <div class="choice_title">Кузов на 2.5L</div>
+                            
+                        </div>
+                    </div>
+                    <div class="car_title"> kuga
+                        <div class="car_price">3 100 000 ₽ </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="car card kuga">
+            <div class="photo">
+                <div class="block_photos ford-mustang">
+                    <img class="car_img first" src="img/probeg/kuga/red/1.jpg"  alt="">
+                    <img class="car_img second" src="img/probeg/kuga/red/2.jpg"  alt="">
+                   
+                </div>
+
+                <div class="car_content">
+                    <div class="navigation_car">
+                       <div class="choice_color">
+                          <div class="choice_title">Кузов на 3.5L</div>
+                            
+                        </div>
+                    </div>
+                    <div class="car_title"> kuga
+                        <div class="car_price">3 200 000 ₽ </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="car card kuga">
+            <div class="photo">
+                <div class="block_photos ford-mustang">
+                    <img class="car_img first" src="img/probeg/kuga/white/1.jpg"  alt="">
+                    <img class="car_img second" src="img/probeg/kuga/white/2.jpg"  alt="">
+                   
+                </div>
+
+                <div class="car_content">
+                    <div class="navigation_car">
+                       <div class="choice_color">
+                          <div class="choice_title">Кузов на 3L</div>
+                            
+                        </div>
+                    </div>
+                    <div class="car_title"> kuga
+                        <div class="car_price">2 950 000 ₽ </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="car card focus">
+            <div class="photo">
+                <div class="block_photos ford-mustang">
+                    <img class="car_img first" src="img/probeg/focus/black/1.jpg"  alt="">
+                    <img class="car_img second" src="img/probeg/focus/black/2.jpg"  alt="">
+                   
+                </div>
+
+                <div class="car_content">
+                    <div class="navigation_car">
+                       <div class="choice_color">
+                          <div class="choice_title">Кузов на 1.5L</div>
+                            
+                        </div>
+                    </div>
+                    <div class="car_title"> focus
+                        <div class="car_price">2 600 000 ₽ </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="car card focus">
+            <div class="photo">
+                <div class="block_photos ford-mustang">
+                    <img class="car_img first" src="img/probeg/focus/blue/1.jpg"  alt="">
+                    <img class="car_img second" src="img/probeg/focus/blue/2.jpg"  alt="">
+                   
+                </div>
+
+                <div class="car_content">
+                    <div class="navigation_car">
+                       <div class="choice_color">
+                          <div class="choice_title">Кузов на 2.75L</div>
+                            
+                        </div>
+                    </div>
+                    <div class="car_title"> focus
+                        <div class="car_price">3 200 000 ₽ </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="car card focus">
+            <div class="photo">
+                <div class="block_photos ford-mustang">
+                    <img class="car_img first" src="img/probeg/focus/white/1.jpg"  alt="">
+                    <img class="car_img second" src="img/probeg/focus/white/2.jpg"  alt="">
+                   
+                </div>
+
+                <div class="car_content">
+                    <div class="navigation_car">
+                       <div class="choice_color">
+                          <div class="choice_title">Кузов на 2.5L</div>
+                            
+                        </div>
+                    </div>
+                    <div class="car_title"> focus
+                        <div class="car_price">2 600 000 ₽ </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="car card eco-sport">
+            <div class="photo">
+                <div class="block_photos ford-mustang">
+                    <img class="car_img first" src="img/probeg/eco-sport/orange/1.jpg"  alt="">
+                    <img class="car_img second" src="img/probeg/eco-sport/orange/2.jpg"  alt="">
+                   
+                </div>
+
+                <div class="car_content">
+                    <div class="navigation_car">
+                       <div class="choice_color">
+                          <div class="choice_title">Кузов на 2L</div>
+                            
+                        </div>
+                    </div>
+                    <div class="car_title"> eco-sport
+                        <div class="car_price">3 300 000 ₽ </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="car card mondeo">
+            <div class="photo">
+                <div class="block_photos ford-mustang">
+                    <img class="car_img first" src="img/probeg/mondeo/black/1.jpg"  alt="">
+                    <img class="car_img second" src="img/probeg/mondeo/black/2.jpg"  alt="">
+                   
+                </div>
+
+                <div class="car_content">
+                    <div class="navigation_car">
+                       <div class="choice_color">
+                          <div class="choice_title">Кузов на 2L</div>
+                            
+                        </div>
+                    </div>
+                    <div class="car_title"> Mondeo
+                        <div class="car_price">2 700 000 ₽ </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="car card mondeo">
+            <div class="photo">
+                <div class="block_photos ford-mustang">
+                    <img class="car_img first" src="img/probeg/mondeo/white/1.jpg"  alt="">
+                    <img class="car_img second" src="img/probeg/mondeo/white/2.jpg"  alt="">
+                   
+                </div>
+
+                <div class="car_content">
+                    <div class="navigation_car">
+                       <div class="choice_color">
+                          <div class="choice_title">Кузов на 1.75L</div>
+                            
+                        </div>
+                    </div>
+                    <div class="car_title"> Mondeo
+                        <div class="car_price">3 100 000 ₽ </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
+
+
+        
+  
+
+
+
+    </div>
+    </div>
+
+</div>
+   <footer class="footer">
+    <div class="container">
+        <div class="footer_inner">
+            <div class="footer_info">
+                <div class="footer_copyright">
+                    &copy; 2020 - Ford-Motor Company
+                </div>
+
+                <div class="footer_social">
+                    <a class="footer_link" href="https://ru-ru.facebook.com/LinkedIn/">
+                        <img src="img/icons/linkedin.png" alt="">
+                    </a>
+                    <a class="footer_link" href="https://ru-ru.facebook.com/ford">
+                        <img src="img/icons/facebook.png" alt="">
+                    </a>
+                    <a class="footer_link" href="https://www.instagram.com/ford/">
+                        <img src="img/icons/instagram.png" alt="">
+                    </a>
+                    <a class="footer_link" href="https://twitter.com/ford">
+                        <img src="img/icons/twitter.png" alt="twitter">
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer_nav">
+               
+                <a class="footer_nav_link" href="tel:+7(999)999-99-99">+7(999)999-99-99</a>
+                
+              
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="js/script.js" type="text/javascript"></script>
+<script src="js/slick.min.js"></script>
+
+    
+</body>
+</html>

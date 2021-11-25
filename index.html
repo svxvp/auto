@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/slick.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,300;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+   <!--Header-->
+    <div class="header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="company">
+                    <a href="index.html"><img src="img/logo.png" alt=""></a>
+                    
+                    <div class="company_content">
+                        <a class="company_name" href="tel:+7(999)999-99-99">Ford-Motor Company 
+                            <br>+7(999)999-99-99</a>
+                            <div class="company_sub">Офицальный диллер в Калининграде</div>
+                    </div>
+                </div>
+                <div class="nav">
+                    
+                    <a class="nav_link" href="spec-predl.html">спецпредложения</a>
+                    <a class="nav_link" href="auto-probeg.html">авто с пробегом</a>
+                    <a class="nav_link" href="service.html">сервис</a>
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+   <!--Banner-->
+    <section class="banner">
+        <div class="container">
+            <div class="banner_content"> 
+                <h1 class="banner_content-title">
+                    Mustang Shelby
+                </h1>
+                <div class="banner_content-text">
+                    Самый быстрый автомобиль в мире, с рекордным ускорением, дальностью и производительностью
+                </div>
+                
+                
+                    <a href="test-drive.html" class="banner_content-btn" id="open_pop_up">
+                        Хочу тест-драйв
+                    </a>
+
+            </div>
+        </div>
+
+        
+    </section>
+
+    <!--Slider-->
+
+    <div class="slider-top">
+        <div class="slider">
+            <div class="slider__item" style="background-image: url(img/slider-banner/main/1.jpg);">
+
+            </div>
+            <div class="slider__item" style="background-image: url(img/slider-banner/main/2.jpg);">
+
+            </div>
+            <div class="slider__item" style="background-image: url(img/slider-banner/main/3.jpg);">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="pop_up" id="pop_up">
+        <div class="pop_up_container">
+            <div class="pop_up_body" id="pop_up_body">
+                <p>Оставить заявку на тест-драйв</p>
+                <form action="">
+                    <input type="text" placeholder="Имя">
+                    <input type="text" placeholder="Телефон">
+                    <div class="select">
+                        <select name="format" id="format">
+                            <option selected disabled>Выберете модель</option>
+                            <option value="Mustang">Mustang</option>
+                            <option value="Fusion">Fusion</option>
+                            <option value="Fiesta">Fiesta</option>
+                            <option value="Focus">Focus</option>
+                            <option value="Escape">Escape</option>
+                            <option value="Sport-car">Sport-car</option>
+                            <option value="Expedition">Expedition</option>
+                            <option value="Ranger">Ranger</option> 
+                         </select>
+                    </div>
+                
+                    <button>Отправить</button>
+                </form>
+                <div class="pop_up_close" id="pop_up_close">&#10006</div>
+            </div>
+        </div>
+    </div>
+
+
+
+     <!--Models-->
+     <div class="models_block">
+        <div class="container">
+          <h2 class= "h2">модельный ряд</h2>
+          <div class="filter">
+              
+              <button class="button button_type_leg"  data-filter="leg">Городские</button>
+              <button class="button button_type_all" data-filter="all">Все</button>
+              <button class="button button_type_sport"  data-filter="sport">Внедорожники</button>
+          </div>
+    
+          <div class="models_list">
+
+               <div class="car card leg">
+                   <div class="photo">
+                       <div class="block_photos ford-mustang">
+                           <img class="car_img first" src="img/models/ford-mustang/red/1.png"  alt="">
+                           <img class="car_img second" src="img/models/ford-mustang/red/2.png" alt="">
+                        </div>
+    
+                        <div class="car_content">
+                           <div class="navigation_car">
+                              <div class="choice_color">
+                                 <div class="choice_title">Выберете цвет</div>
+                                    <div class="colors">
+                                    <a class="color_button" car-name="ford-mustang" car-color="black"><img src="img/colors/black.png" class="radius_colors" alt=""></a>
+                                    <a class="color_button" car-name="ford-mustang" car-color="red" ><img src="img/colors/red.png" class="radius_colors" alt=""></a>
+                                    <a class="color_button" car-name="ford-mustang" car-color="pink"><img src="img/colors/pink.png" class="radius_colors" alt=""></a>
+                                    <a class="color_button" car-name="ford-mustang" car-color="purple"><img src="img/colors/purple.png" class="radius_colors" alt=""></a>
+                                    <a class="color_button" car-name="ford-mustang" car-color="blue"><img src="img/colors/blue.png" class="radius_colors" alt=""></a>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="car_title">
+                            Mustang
+                            <div class="car_price">3 000 000 ₽ </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="car card leg">
+                <div class="photo">
+                    <div class="block_photos ford-fusion"> 
+                        <img class="car_img first" src="img/models/ford-fusion/black/1.png" alt="">
+                        <img class="car_img second" src="img/models/ford-fusion/black/2.png" alt="">
+    
+                    </div>
+    
+                    <div class="car_content">
+                        <div class="navigation_car">
+                          <div class="choice_color">
+                              <div class="choice_title">Выберете цвет</div>
+                              <div class="colors">
+                                <a class="color_button" car-name="ford-fusion" car-color="black"><img src="img/colors/black.png" class="radius_colors" alt=""></a>
+                                <a class="color_button" car-name="ford-fusion" car-color="red"><img src="img/colors/red.png" class="radius_colors" alt=""></a>
+                                <a class="color_button" car-name="ford-fusion" car-color="pink"><img src="img/colors/pink.png" class="radius_colors" alt=""></a>
+                                <a class="color_button" car-name="ford-fusion" car-color="purple"><img src="img/colors/purple.png" class="radius_colors" alt=""></a>
+                                <a class="color_button" car-name="ford-fusion" car-color="blue"><img src="img/colors/blue.png" class="radius_colors" alt=""></a>
+                              </div>
+                            </div>
+        
+                        </div>
+                        <div class="car_title">
+                            Fusion
+                           <div class="car_price">2 450 000 ₽ </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="car card leg">
+                <div class="photo">
+                    <div class="block_photos ford-focus">
+                        <img class="car_img first" src="img/models/ford-focus/purple/1.png"  alt="">
+                        <img class="car_img second" src="img/models/ford-focus/purple/2.png" alt="">
+                    </div>
+                    <div class="car_content">
+                        <div class="navigation_car">
+                          <div class="choice_color">
+                              <div class="choice_title">Выберете цвет</div>
+                              <div class="colors">
+                                 <a class="color_button" car-name="ford-focus" car-color="black"><img src="img/colors/black.png" class="radius_colors" alt=""></a>
+                                 <a class="color_button" car-name="ford-focus" car-color="red"><img src="img/colors/red.png" class="radius_colors" alt=""></a>
+                                 <a class="color_button" car-name="ford-focus" car-color="pink"><img src="img/colors/pink.png" class="radius_colors" alt=""></a>
+                                 <a class="color_button" car-name="ford-focus" car-color="purple"><img src="img/colors/purple.png" class="radius_colors" alt=""></a>
+                                 <a class="color_button" car-name="ford-focus" car-color="blue"><img src="img/colors/blue.png" class="radius_colors" alt=""></a>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="car_title">
+                            Focus
+                            <div class="car_price">2 175 000 ₽ </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="car card leg">
+                <div class="photo">
+                    <div class="block_photos ford-fiesta">
+                        <img class="car_img first" src="img/models/ford-fiesta/blue/1.png"  alt="">
+                        <img class="car_img second" src="img/models/ford-fiesta/blue/2.png" alt="">
+                    </div>
+                    <div class="car_content">
+                        <div class="navigation_car">
+                          <div class="choice_color">
+                              <div class="choice_title">Выберете цвет</div>
+                              <div class="colors">
+                                 <a class="color_button" car-name="ford-fiesta" car-color="black"><img src="img/colors/black.png" class="radius_colors" alt=""></a>
+                                 <a class="color_button" car-name="ford-fiesta" car-color="red"><img src="img/colors/red.png" class="radius_colors" alt=""></a>
+                                 <a class="color_button" car-name="ford-fiesta" car-color="pink"><img src="img/colors/pink.png" class="radius_colors" alt=""></a>
+                                 <a class="color_button" car-name="ford-fiesta" car-color="purple"><img src="img/colors/purple.png" class="radius_colors" alt=""></a>
+                                 <a class="color_button" car-name="ford-fiesta" car-color="blue"><img src="img/colors/blue.png" class="radius_colors" alt=""></a>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="car_title">
+                            Fiesta
+                            <div class="car_price">2 300 000 ₽ </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="car card sport">
+                <div class="photo">
+                    <div class="block_photos ford-escape">
+                        <img class="car_img first" src="img/models/ford-escape/brown/1.png"  alt="">
+                        <img class="car_img second" src="img/models/ford-escape/brown/2.png" alt="">
+                    </div>
+                    <div class="car_content">
+                        <div class="navigation_car">
+                          <div class="choice_color">
+                              <div class="choice_title">Выберете цвет</div>
+                              <div class="colors">
+                                 <a class="color_button" car-name="ford-escape" car-color="black"><img src="img/colors/black.png" class="radius_colors" alt=""></a>
+                                 <a class="color_button" car-name="ford-escape" car-color="brown"><img src="img/colors/brown.png" class="radius_colors" alt=""></a>
+                                 <a class="color_button" car-name="ford-escape" car-color="green"><img src="img/colors/green.png" class="radius_colors" alt=""></a>
+                                 <a class="color_button" car-name="ford-escape" car-color="purple"><img src="img/colors/purple.png" class="radius_colors" alt=""></a>
+                                 <a class="color_button" car-name="ford-escape" car-color="blue"><img src="img/colors/blue.png" class="radius_colors" alt=""></a>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="car_title">
+                            Escape
+                            <div class="car_price">3 450 000 ₽ </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="car card sport">
+                <div class="photo">
+                    <div class="block_photos ford-sport-car">
+                        <img class="car_img first" src="img/models/ford-sport-car/black/1.png"  alt="">
+                        <img class="car_img second" src="img/models/ford-sport-car/black/2.png" alt="">
+                    </div>
+                    <div class="car_content">
+                        <div class="navigation_car">
+                          <div class="choice_color">
+                              <div class="choice_title">Выберете цвет</div>
+                              <div class="colors">
+                                 <a class="color_button" car-name="ford-sport-car" car-color="black"><img src="img/colors/black.png" class="radius_colors" alt=""></a>
+                                 
+                              </div>
+                            </div>
+                        </div>
+                        <div class="car_title">
+                            Sport-car
+                            <div class="car_price">3 450 000 ₽ </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="car card sport">
+                <div class="photo">
+                    <div class="block_photos ford-expedition">
+                        <img class="car_img first" src="img/models/ford-expedition/gray/1.png"  alt="">
+                        <img class="car_img second" src="img/models/ford-expedition/gray/2.png" alt="">
+                    </div>
+                    <div class="car_content">
+                        <div class="navigation_car">
+                          <div class="choice_color">
+                              <div class="choice_title">Выберете цвет</div>
+                              <div class="colors">
+                                 <a class="color_button" car-name="ford-expedition" car-color="black"><img src="img/colors/gray.png" class="radius_colors" alt=""></a>
+                                 
+                              </div>
+                            </div>
+                        </div>
+                        <div class="car_title">
+                            Expedition
+                            <div class="car_price">3 450 000 ₽ </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="car card sport">
+                <div class="photo">
+                    <div class="block_photos ford-raptor">
+                        <img class="car_img first" src="img/models/ford-raptor/blue/1.png"  alt="">
+                        <img class="car_img second" src="img/models/ford-raptor/blue/2.png" alt="">
+                    </div>
+                    <div class="car_content">
+                        <div class="navigation_car">
+                          <div class="choice_color">
+                              <div class="choice_title">Выберете цвет</div>
+                              <div class="colors">
+                                <a class="color_button" car-name="ford-raptor" car-color="black"><img src="img/colors/black.png" class="radius_colors" alt=""></a>
+                                <a class="color_button" car-name="ford-raptor" car-color="red"><img src="img/colors/red.png" class="radius_colors" alt=""></a>
+                                <a class="color_button" car-name="ford-raptor" car-color="pink"><img src="img/colors/pink.png" class="radius_colors" alt=""></a>
+                                <a class="color_button" car-name="ford-raptor" car-color="purple"><img src="img/colors/purple.png" class="radius_colors" alt=""></a>
+                                <a class="color_button" car-name="ford-raptor" car-color="blue"><img src="img/colors/blue.png" class="radius_colors" alt="raptor"> </a>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="car_title">
+                            Ranger
+                            <div class="car_price">3 450 000 ₽ </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            
+      
+
+
+
+        </div>
+        </div>
+    
+    </div>
+
+
+    <div class="stock">
+        <div class="container">
+            <h3 class= "h3">текущие акции</h3>
+
+            <div class="accordion-wrapper">
+                <div class="accordion-item">
+                    <div class="accordion-item-title">Шиномонтаж за 1 рубль!</div>
+                    <div class="accordion-item-content">Наслаждайтесь осенью, а шиномонтаж мы возьмем на себя! 
+                    При покупке зимних шин в сервисных центрах и магазинах ОНИС* шиномонтаж за 1 рубль.</div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-item-title">Сезонное хранение шин!</div>
+                    <div class="accordion-item-content">Продлить срок службы вашей резины очень просто – достаточно оставить ее 
+                    на хранение в сервисных центрах ТрансТехСервис!</div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-item-title">Меняйте на новый Ford TRANSIT с выгодой до 150 000 руб.*</div>
+                    <div class="accordion-item-content">КАКИЕ АВТОМОБИЛИ ПРИНИМАЮТСЯ В ТРЕЙД-ИН:
+
+                        Все автомобили по ПТС (Паспорт технического средства), у которых указан любой тип, отличный от легкового и его вариантов.
+                        
+                        Независимо от записи в ПТС в программе участвуют модели автомобилей: Citroen Spacetourer 
+                        / Berlingo / Jumpy / Jumper, Fiat Doblo / Scudo / Ducato, Ford Transit/Tourneo Connect / 
+                        Custom, Ford Transit , Hyundai H1 / (Grand) Starex, Mercedes-Benz Citan / V-class, Opel Combo / 
+                        Zafira Life, Nissan NV200, Peugeot Traveller / Partner / Expert / Boxer, Renault Dokker / Kangoo / Trafic 
+                        / Master, Skoda Praktik, Volkswagen Caddy / Transporter / Crafter, ГАЗ Соболь / Газель.</div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-item-title">Онлайн - кредитование через платежные терминалы.</div>
+                    <div class="accordion-item-content">Теперь клиенты Сбербанка при помощи сервиса «Покупай со Сбербанком» могут оформить кредит на покупку товаров
+                         непосредственно на кассах компании ТрансТехСервис. Оформление кредита проводится менеджером Автоцентра.</div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-item-title">ПРОГРАММА FORD CREDIT 0%</div>
+                    <div class="accordion-item-content">Позволяет приобрести легковые автомобили Ford по специальным ценам в кредит.</div>
+                </div>
+
+              
+
+            </div>
+
+            
+        
+        </div>
+    </div>
+
+    <section class="carousel">
+        <div class="container">
+            <h2 class="h3">Cпецпредложения</h2>
+
+            <div class="carousel__inner">
+
+                <div class="carousel__item">
+                    <div class="carousel__item-box">
+                        <img src="img/slider_predl/2.png" alt="" class="carousel__item-img">
+                        <a href= "spec-predl6.html" class="carousel__item-title">«Замена тормозов» с выгодой до 50%</a>
+                        
+                    </div>
+                </div>
+    
+                <div class="carousel__item">
+                    <div class="carousel__item-box">
+                        <img src="img/slider_predl/1.png" alt="" class="carousel__item-img">
+                        <a href= "spec-predl1.html" class="carousel__item-title">«Замена масла» с выгодой до 30%</a>
+                        
+                    </div>
+                </div>
+    
+                <div class="carousel__item">
+                    <div class="carousel__item-box">
+                        <img src="img/slider_predl/3.png" alt="" class="carousel__item-img">
+                        <a href= "spec-predl3.html" class="carousel__item-title">Шинный сервис на выгодных условиях</a>
+                        
+                    </div>
+                </div>
+    
+                <div class="carousel__item">
+                    <div class="carousel__item-box">
+                        <img src="img/slider_predl/4.png" alt="" class="carousel__item-img">
+                        <a href= "spec-predl4.html" class="carousel__item-title">FORD CREDIT</a>
+                        
+                    </div>
+                </div>
+
+                <div class="carousel__item">
+                    <div class="carousel__item-box">
+                        <img src="img/slider_predl/5.png" alt="" class="carousel__item-img">
+                        <a href= "spec-predl5.html" class="carousel__item-title">Моя лучшая фотография с FORD</a>
+                       
+                    </div>
+                </div>
+                
+            </div>
+
+            
+            <div class="link">
+                <a class="coursel_link" href="spec-predl.html">Смотреть все спецпредложения</a>
+            </div>
+
+        </div>
+    </section>
+
+    
+
+
+   <!--Footer-->
+<footer class="footer">
+    <div class="container">
+        <div class="footer_inner">
+            <div class="footer_info">
+                <div class="footer_copyright">
+                    &copy; 2020 - Ford-Motor Company
+                </div>
+
+                <div class="footer_social">
+                    <a class="footer_link" href="https://ru-ru.facebook.com/LinkedIn/">
+                        <img src="img/icons/linkedin.png" alt="">
+                    </a>
+                    <a class="footer_link" href="https://ru-ru.facebook.com/ford">
+                        <img src="img/icons/facebook.png" alt="">
+                    </a>
+                    <a class="footer_link" href="https://www.instagram.com/ford/">
+                        <img src="img/icons/instagram.png" alt="">
+                    </a>
+                    <a class="footer_link" href="https://twitter.com/ford">
+                        <img src="img/icons/twitter.png" alt="twitter">
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer_nav">
+               
+                <a class="footer_nav_link" href="tel:+7(999)999-99-99">+7(999)999-99-99</a>
+                
+              
+            </div>
+        </div>
+    </div>
+</footer>
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+    <script src="js/slick.min.js"></script>
+    
+        
+    </body>
+    </html>
